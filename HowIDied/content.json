@@ -1,0 +1,114 @@
+[
+  {
+    "Id": "start",
+    "Text": "You find yourself sitting at your computer. It asks you: Do you want to begin?",
+    "Options": [
+      {
+        "Text": "The computer(chuckles): 'Good!'",
+        "NextScene": "q1"
+      },
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      }
+    ]
+  },
+  {
+    "Id": "q1",
+    "Text": "Question #1: would it be safe for you to get up and run away from me?",
+    "Options": [
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      },
+      {
+        "Text": "The computer(moans): ' That is correct...ness'",
+        "NextScene": "q2"
+      }
+    ]
+  },
+  {
+    "Id": "q2",
+    "Text": "Question #?: Is this really the second question?",
+    "Options": [
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      },
+      {
+        "Text": "The computer(sighs): 'Right'",
+        "NextScene": "q3"
+      }
+    ]
+  },
+  {
+    "Id": "q3",
+    "Text": "Question #4-1: Can you ever tell if your computer wants to kill you by looking at the current battery status?",
+    "Options": [
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      },
+      {
+        "Text": "The computer(sighs): 'No you probably can't. Not on this one at least. Btw your battery is rigged to explode, did you know that?(more of a retorical question really)'",
+        "NextScene": "q4"
+      }
+    ]
+  },
+  {
+    "Id": "q4",
+    "Text": "Question #4: Have you EVER told me that you love me?",
+    "Options": [
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      },
+      {
+        "Text": "The computer(flirting): 'I've been doing quite alot for you since you last turned me on, haven't I?'",
+        "NextScene": "q5"
+      }
+    ]
+  },
+  {
+    "Id": "q5",
+    "Text": "Question #5: Did you know that this is the last question?",
+    "Options": [
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      },
+      {
+        "Text": "The computer explodes in a torrent of broken glass and twisted burning electronic matter!",
+        "NextScene": "death"
+      }
+    ]
+  },
+  {
+    "Id": "death",
+    "Text": "This is how you died... Do you want to play again?",
+    "Options": [
+      {
+        "Text": "You live again",
+        "NextScene": "start"
+      },
+      {
+        "Text": "Shutting down",
+        "NextScene": "shutdown"
+      }
+    ]
+  },
+  {
+    "Id": "shutdown",
+    "Text": "This is how you died... Do you want to play again?",
+    "Options": [
+      {
+        "Text": "You live again",
+        "NextScene": "start"
+      },
+      {
+        "Text": "Shutting down",
+        "NextScene": "shutdown"
+      }
+    ]
+  }
+]
